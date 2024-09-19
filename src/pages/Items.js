@@ -25,7 +25,7 @@ const Items = () => {
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', height: '100vh', margin: '50px' }}>
-            <h1>Dynamic Item Manager</h1>
+            <h1>Hooks Practice</h1>
             <ItemForm dispatch={dispatch} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <h3 style={{ marginRight: '40px' }}>Item List</h3>
